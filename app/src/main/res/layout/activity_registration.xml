@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+android:background="@drawable/back"
+    tools:context=".registration">
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="160dp"
+        android:layout_height="98dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="121dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="SIGN UP"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="243dp"
+        android:layout_height="88dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="336dp"
+        android:layout_marginEnd="82dp"
+        android:background="@android:color/darker_gray"
+        android:text="individual"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:onClick="gotoindividual"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="251dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="147dp"
+        android:background="@android:color/darker_gray"
+        android:text="company"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:onClick="gotocompany"
+        android:textStyle="bold" />
+
+</RelativeLayout>

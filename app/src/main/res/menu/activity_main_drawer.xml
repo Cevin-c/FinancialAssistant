@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/nav_dashboard"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard" />
+        <item
+            android:id="@+id/nav_income"
+            android:icon="@drawable/ic_income"
+            android:title="Income" />
+        <item
+            android:id="@+id/nav_expense"
+            android:icon="@drawable/ic_income"
+            android:title="Expense" />
+        <item
+            android:id="@+id/nav_debts"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Debts" />
+
+    <item
+        android:id="@+id/nav_moneyowed"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="Money owed" />
+
+    <item
+        android:id="@+id/nav_recurrent"
+        android:icon="@drawable/ic_recurrent"
+        android:title="Recurrent expenses" />
+
+    <item
+        android:id="@+id/nav_todo"
+        android:icon="@drawable/ic_todo"
+        android:title="Todo(Budget)" />
+
+
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_analysis"
+                android:icon="@drawable/ic_analysis"
+                android:title="Analysis" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

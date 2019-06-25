@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "585515819330",
+    "firebase_url": "https://financialassistant-ea02c.firebaseio.com",
+    "project_id": "financialassistant-ea02c",
+    "storage_bucket": "financialassistant-ea02c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585515819330:android:eb4dff234d4f0c6c",
+        "android_client_info": {
+          "package_name": "financialassistant.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "585515819330-vsmpnei12v0eaq20jrvcnik74cabvqjb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_r0_1CcMDq4OU3XIuRozrS_brj1Z3frk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "585515819330-vsmpnei12v0eaq20jrvcnik74cabvqjb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
